@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"/","sources":["events/index.ts"],"names":[],"mappings":";;;;;;AAAA,4EAAyD;AAIxD,iCAJM,2BAAsB,CAIN;AAHvB,oDAAiC;AAIhC,qBAJM,eAAU,CAIN","sourcesContent":["import InteractionCreateEvent from \"./interactionCreate\";\nimport ReadyEvent from \"./ready\";\n\nexport {\n\tInteractionCreateEvent,\n\tReadyEvent\n};"]}
