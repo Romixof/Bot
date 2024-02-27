@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs_extra_1 = __importDefault(require("fs-extra"));
 const node_path_1 = __importDefault(require("node:path"));
 const discord_js_1 = require("discord.js");
+const keep_alive = require('./keep_alive.js');
 const jsonc_1 = require("jsonc");
 const dotenv_1 = require("dotenv");
 const structure_1 = require("./structure");
