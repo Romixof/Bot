@@ -4,7 +4,6 @@
   "description": "Bot with a ticket system using Discord.js v14",
   "main": "dist/index.js",
   "scripts": {
-    "installl": "npm install && prisma db push && rimraf dist && tsc",
     "setup": "npm install && prisma db push",
     "build": "rimraf dist && tsc",
     "start": "node dist/index.js",
