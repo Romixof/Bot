@@ -79,12 +79,12 @@
 		"categoryWhenClaimed": "" // The category the ticket is moved to when claimed
 	},
 
-	"rolesWhoHaveAccessToTheTickets": ["1192566502541500426"], // Roles who can access to the tickets (Like the staff)
+	"rolesWhoHaveAccessToTheTickets": ["1192566502541500426","766915605273640982"], // Roles who can access to the tickets (Like the staff)
 
 	"rolesWhoCanNotCreateTickets": [], // Roles who can	not create a tickets (Like a blacklist)
 
 	"pingRoleWhenOpened": true,
-	"roleToPingWhenOpenedId": ["1192566502541500426"], // The role to ping when a ticket is opened
+	"roleToPingWhenOpenedId": ["1192566502541500426",], // The role to ping when a ticket is opened
 
 	"logs": false,
 	"logsChannelId": "1111111111111111111", // The id of the channel where the logs will be sent
@@ -114,5 +114,5 @@
 	*/
 	"minimalTracking": false,
 	// Hide internal websocket logs
-	"showWSLog": false
+	"showWSLog": true
 }
